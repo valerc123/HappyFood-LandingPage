@@ -2,13 +2,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Handlee', cursive;
 }
 
-.header {
+/* .header {
+
+} */
+ 
+.gradient {
     background: linear-gradient(180deg,
-                rgba(84,226,234,1) 0%,
-                rgba(185,227,209,1) 51%,
-                rgba(248,234,209,1) 100%);
+    rgba(84,226,234,1) 0%,
+    rgba(185,227,209,1) 51%,
+    rgba(248,234,209,1) 100%);
+}
+.grad_reverse {
+    background: linear-gradient(180deg,
+    rgba(248,234,209,1) 0%,
+    rgba(185,227,209,1) 51%,
+    rgba(84,226,234,1) 100%)
 }
 
 .nav {
@@ -25,7 +36,6 @@
     padding: 10px;
     background: black;
     margin: 0;
-    font-family: sans-serif;
     display: flex;
     justify-content: flex-end;
 }
@@ -45,7 +55,41 @@
 .main-picture {
     display:block;
     margin:auto;
-    width: 80%;
-    height: 48%;
+    height: 100%;
     box-shadow: 3px 10px 14px 5px rgba(255,255,255,0.37);
 }
+.features {
+    height: 500px;
+    display: flex;
+    padding: 30px;
+    padding: 5% 30px 5% 30px;
+    justify-content: center;
+}
+
+.feature {
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 35px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.feature h4 {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.white {
+    background-color: #fff;
+}
+.about {
+    display: flex;
+    justify-content: center;
+}
+.redes a img {
+    width: 10%;
+}
+

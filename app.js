@@ -5,6 +5,7 @@ let app = new Vue({
         return{
             name: "Happy Food",
             imagen: "./img/inicio.png",
+            logo: "./img/logo_transparent.png"
         }
     }
 });
