@@ -1,11 +1,29 @@
-let app = new Vue({
-    el:"#app",
+// let app = new Vue({
+//     el:"#app",
 
-    data () {
-        return{
-            name: "Happy Food",
-            imagen: "./img/inicio.png",
-            logo: "./img/logo_transparent.png"
+//     data () {
+//         return{
+//             name: "Happy Food",
+//             imagen: "./img/inicio.png",
+//             logo: "./img/logo_transparent.png"
+//         }
+//     }
+// });
+
+(function($) {
+    "use strict"; // Start of use strict
+  
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: (target.offset().top - 71)
+          }, 1000, "easeInOutExpo");
+          return false;
         }
-    }
-});
+      }
+    });
+)

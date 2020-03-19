@@ -11,27 +11,28 @@
     <div id="app">
         <header class="nav">
             <ul class="menu">
-                <li><a class="item" href="#">HOME</a></li>
-                <li><a class="item" href="#">FEATURES</a></li>
-                <li><a class="item" href="#">ABOUT</a></li>
+                <li><a class="item js-scroll-trigger" href="#home">HOME</a></li>
+                <li><a class="item js-scroll-trigger" href="#feature">FEATURES</a></li>
+                <li><a class="item js-scroll-trigger" href="#about">ABOUT</a></li>
             </ul>
             <a href="./index.html"><img class="logo" src="./img/logo_transparent.png" alt=""></a>
         </header>
-        <section class="intro">
+        <section class="intro" id="#home">
             <div class="header gradient">
                 <img class="main-picture" src="./img/inicio.png" alt="Happy Food">
             </div>
         </section>
-         <section class="features grad_reverse white">
+        <section class="features grad_reverse white" id="feature">
+
              <div class="feature white">
                 <p>
-                    <h4>Main Goal:</h4> Understand how to create and give a computer a set of
+                    <h4>Main Goal</h4> Understand how to create and give a computer a set of
                     instructions to follow.
                  </p>
              </div>
             <div class="feature">
                 <h4>Solve Puzzles using</h4>
-                <p>HappyFood is a puzzle game based on spatial logic, it secretly teaches you logic as you play!</p>
+                <p>HappyFood is a puzzle game based on secuencial logic, it secretly teaches you logic as you play!</p>
             </div>
             <div class="feature">
                 <h4>You will learn</h4>
@@ -40,19 +41,29 @@
                     <li>Overloading</li>
                     <li>Procedures</li>
                     <li>Recursive Loops</li>
-                    <li>Conditionals</li>
+                    <li>Pattern Recognition</li>
                 </ol>
             </div>
          </section>
-
+         <section class="gradient about0">
+             <h1>Isometric Food</h1>
+             <p> Nowadays kids, and people in general, spent a lot of time playing video games on their parents phones, 
+                or on their own phones, this can be counterproductive as people are not taking advantage of their free 
+                time to learn something new, or to improve their abilities to be better prepare for a technological world, 
+                a world where a lot of problems we don't even know yet will arise. 
+                The future is bright but we will need people with a logical mindset to solve the problems the technology 
+                will embrace, because of this we want people to start developing and training the skills needed such as logical
+                thinking and memory by playing a simple game as Isometric Food is. Players will also see concepts of programming
+                such as main functions and loops.
+            </p>
+         </section>
          <div class="title">
              <h1>Our amazing team</h1>
-             <span>Cohort - 9 </span>
+             <span>Holberton School - Cohort 9 </span>
         </div>
-
-        <section class="about">
-      
+        <section class="about" id="about">
             <div class="peers">
+                <div></div>
                 <div class="peer">
                     <h2>Juan Guillermo Caicedo</h2>
                     <span>Game Developer</span>
@@ -91,10 +102,10 @@
             <a href="">
                 <img src="./img/app_store.png" style="height: 90px;">
             </a>
-        </section>
+        </div>
         <footer>Holberton School - Cohort 9</footer>
-     </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="app.js"></script> -->
+     <script src="jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="app.js"></script>
 </body>
 </html>
