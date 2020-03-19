@@ -89,7 +89,31 @@
     display: flex;
     justify-content: center;
 }
+.about .peers {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .redes a img {
     width: 10%;
 }
 
+.title {
+    text-align: center;
+    margin: 30px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+}
+.btns img{
+    width: 200px;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 13px;
+}
